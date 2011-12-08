@@ -1,0 +1,341 @@
+  [4;36;1mRecipe Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: recipes: SELECT * FROM "recipes" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (120.8ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (100.0ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateRecipes (20111208142907)
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "method" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20111208142907')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("recipes")[0m
+  [4;36;1mRecipe Load (0.4ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+  [4;35;1mRecipe Create (0.4ms)[0m   [0mINSERT INTO "recipes" ("created_at", "title", "method", "updated_at") VALUES('2011-12-08 14:38:54', 'Bacon Butty', 'Eat Lots', '2011-12-08 14:38:54')[0m
+  [4;36;1mRecipe Load (0.2ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" [0m
+  [4;36;1mRecipe Create (0.3ms)[0m   [0;1mINSERT INTO "recipes" ("created_at", "title", "method", "updated_at") VALUES('2011-12-08 14:40:49', 'Full English', 'Eat Even More', '2011-12-08 14:40:49')[0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-08 14:57:47) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: edit, new, show, and view):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-08 14:58:20) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: edit, new, show, and view):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-08 15:00:39) [GET]
+Rendering recipes/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-08 15:06:09) [GET]
+Rendering recipes/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-08 15:06:24) [GET]
+
+ActionController::RoutingError (No route matches "/recipe/show/1" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-08 15:06:51) [GET]
+  Parameters: {"id"=>"1"}
+Rendering recipes/show
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #1 of app/views/recipes/show.html.erb:
+1: <h1><%=h @recipe.title %></h1>
+2: <p>Chef: J Finlay</p>
+3: <p>The method for this recipe is</p>
+4: <p><%=h @recipe.method %></p>
+
+    app/views/recipes/show.html.erb:1
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-08 15:10:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mRecipe Load (0.1ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering recipes/show
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/recipes/show/1]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-08 15:17:42) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+Rendering recipes/show
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/recipes/show/2]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-08 15:17:44) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mRecipe Load (0.1ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 3) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Recipe with ID=3):
+  app/controllers/recipes_controller.rb:6:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-08 15:17:47) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+Rendering recipes/show
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/recipes/show/2]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-08 15:17:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mRecipe Load (0.1ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering recipes/show
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/recipes/show/1]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-08 15:25:29) [GET]
+  [4;35;1mRecipe Load (0.4ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering recipes/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/recipes/index]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-08 15:40:39) [GET]
+Rendering recipes/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #2 of app/views/recipes/new.html.erb:
+1: <h1>Create A New Recipe</h1>
+2: <% form_for @recipe do |f| %>
+3: <p>
+4: <%= f.label :title %>
+5: <%= f.text_field :title %>
+
+    app/views/recipes/new.html.erb:2
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-08 15:40:56) [GET]
+Rendering recipes/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #2 of app/views/recipes/new.html.erb:
+1: <h1>Create A New Recipe</h1>
+2: <% form_for @recipe do |f| %>
+3: <p>
+4: <%= f.label :title %>
+5: <%= f.text_field :title %>
+
+    app/views/recipes/new.html.erb:2
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-08 15:40:58) [GET]
+Rendering recipes/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #2 of app/views/recipes/new.html.erb:
+1: <h1>Create A New Recipe</h1>
+2: <% form_for @recipe do |f| %>
+3: <p>
+4: <%= f.label :title %>
+5: <%= f.text_field :title %>
+
+    app/views/recipes/new.html.erb:2
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (87.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-08 15:43:36) [GET]
+Rendering recipes/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #2 of app/views/recipes/new.html.erb:
+1: <h1>Create A New Recipe</h1>
+2: <% form_for @recipe do |f| %>
+3: <p>
+4: <%= f.label :title %><br/>
+5: <%= f.text_field :title %>
+
+    app/views/recipes/new.html.erb:2
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-08 15:43:46) [GET]
+Rendering recipes/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-08 15:49:43) [GET]
+Rendering recipes/new
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2011-12-08 15:50:26) [POST]
+  Parameters: {"commit"=>"Create Recipe", "authenticity_token"=>"pL7Z5UGn3VLLDohXkf8Tn2Jvr+vrQaGBYW1/5/U2x6U=", "recipe"=>{"title"=>"Cheese Toasty", "method"=>"Use Toaster?"}}
+  [4;36;1mRecipe Create (0.5ms)[0m   [0;1mINSERT INTO "recipes" ("created_at", "title", "method", "updated_at") VALUES('2011-12-08 15:50:26', 'Cheese Toasty', 'Use Toaster?', '2011-12-08 15:50:26')[0m
+Redirected to http://localhost:3000/
+Completed in 108ms (DB: 0) | 302 Found [http://localhost/recipes]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-08 15:50:26) [GET]
+  [4;35;1mRecipe Load (0.5ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering recipes/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mRecipe Load (0.5ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-08 15:56:10) [GET]
+  [4;36;1mRecipe Load (0.4ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+Rendering recipes/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-08 15:56:15) [GET]
+Rendering recipes/new
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-08 15:59:10) [GET]
+Rendering recipes/new
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-08 15:59:13) [GET]
+  [4;35;1mRecipe Load (0.4ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering recipes/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-08 15:59:16) [GET]
+Rendering recipes/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-08 15:59:17) [GET]
+  [4;36;1mRecipe Load (0.5ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+Rendering recipes/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/recipes]

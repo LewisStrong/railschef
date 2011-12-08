@@ -1,0 +1,16 @@
+<h1>Create A New Recipe</h1>
+<% form_for @recipe do |f| %>
+<p>
+<%= f.label :title %><br/>
+<%= f.text_field :title %>
+</p>
+<p>
+<%= f.label :method %><br/>
+<%= f.text_area :method %>
+</p>
+<p>
+<%= f.submit "Create Recipe" %> | <%= link_to "Cancle", recipes_path %>
+</p>
+<% end %>
+
+
