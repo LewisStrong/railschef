@@ -1,16 +1,5 @@
 <h1>Edit A Recipe: <%= @recipe.title %></h1>
-<% form_for @recipe do |f| %>
-<p>
-<%= f.label :title %><br/>
-<%= f.text_field :title %>
-</p>
-<p>
-<%= f.label :method %><br/>
-<%= f.text_area :method %>
-</p>
-<p>
-<%= f.submit "Update" %> | <%= link_to "Cancle", recipe_path %>
-</p>
-<% end %>
+
+<%= render :partial => 'form' %>
 
 
