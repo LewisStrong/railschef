@@ -2,4 +2,5 @@
 <p>Chef: J Finlay</p>
 <p>The method for this recipe is</p>
 <p><%=h @recipe.method %></p>
+<p><%= link_to " &#171 Return To All Recipes", recipes_path %> | <%= link_to "Edit Recipe", edit_recipe_path %> | <%= link_to "Delete Recipe", @recipe, :confirm => "Are You Sure?", :method => :delete %></p>
 
