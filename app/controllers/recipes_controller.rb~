@@ -17,7 +17,14 @@ class RecipesController < ApplicationController
 
   def create
     @recipe = Recipe.create(params[:recipe])
-      flash[:notice] = "Recipe Created!"
+    if @recipe.save
+      @recipe.update_attributes(params[:recipe])
+      flash[:notice] = "Recipe updated!"
+      redirect_to @recipe
+    else
+      flash[:notice] = "Try Again!"
+      redirect_to edit_recipe_path
+    end
     redirect_to root_url
   end
 

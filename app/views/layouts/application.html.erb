@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Rails Chef</title>
+<%= stylesheet_link_tag 'base' %>
+</head>
+<body>
+<div class = "flash">
+<% if flash[:notice] %>
+<div class = "Flash"><p style=“color: green”><%= flash[:notice] %></p></div>
+<% end %>
+</div>
+
+<div id = "wrapper">
+<%= yield %>
+</div>
+</body>
+</html>

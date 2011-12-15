@@ -1331,3 +1331,893 @@ Processing RecipesController#edit (for 127.0.0.1 at 2011-12-15 15:36:26) [GET]
 Rendering recipes/edit
 Rendered recipes/_form (6.5ms)
 Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/recipes/1/edit]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 15:38:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mRecipe Load (0.2ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering recipes/show
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/recipes/1]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 15:38:53) [GET]
+  [4;35;1mRecipe Load (0.5ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering recipes/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-12-15 15:45:23) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/lewiss/Documents/Code/Rails/railschef/app/controllers/recipes_controller.rb:40: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (22.1ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-12-15 15:45:26) [GET]
+  Parameters: {"id"=>"2"}
+
+SyntaxError (/home/lewiss/Documents/Code/Rails/railschef/app/controllers/recipes_controller.rb:40: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-12-15 15:55:21) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/lewiss/Documents/Code/Rails/railschef/app/controllers/recipes_controller.rb:40: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-12-15 15:56:35) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/lewiss/Documents/Code/Rails/railschef/app/controllers/recipes_controller.rb:40: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-12-15 15:56:37) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError (/home/lewiss/Documents/Code/Rails/railschef/app/controllers/recipes_controller.rb:40: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (28.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 15:58:28) [GET]
+  [4;36;1mRecipe Load (0.4ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 15:58:31) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/recipes/2]
+
+
+Processing RecipesController#edit (for 127.0.0.1 at 2011-12-15 15:58:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mRecipe Load (0.1ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering recipes/edit
+Rendered recipes/_form (4.9ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/recipes/2/edit]
+
+
+Processing RecipesController#update (for 127.0.0.1 at 2011-12-15 15:58:37) [PUT]
+  Parameters: {"commit"=>"Save", "authenticity_token"=>"O7wb03H+SJ0W92zMbTeJQeLCFFNSr32bFoAFW+UtGJw=", "id"=>"2", "recipe"=>{"title"=>"Full English", "method"=>"Eat Even More jhj"}}
+  [4;35;1mRecipe Load (0.1ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+  [4;36;1mRecipe Update (0.4ms)[0m   [0;1mUPDATE "recipes" SET "updated_at" = '2011-12-15 15:58:37', "method" = 'Eat Even More jhj' WHERE "id" = 2[0m
+
+NameError (undefined local variable or method `”' for #<RecipesController:0xb6045b1c>):
+  app/controllers/recipes_controller.rb:27:in `update'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (21.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#update (for 127.0.0.1 at 2011-12-15 15:59:04) [PUT]
+  Parameters: {"commit"=>"Save", "authenticity_token"=>"O7wb03H+SJ0W92zMbTeJQeLCFFNSr32bFoAFW+UtGJw=", "id"=>"2", "recipe"=>{"title"=>"Full English", "method"=>"Eat Even More jhj"}}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+Redirected to http://localhost:3000/recipes/2
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/recipes/2]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 15:59:04) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mRecipe Load (0.2ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes/2]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:00:06) [GET]
+  [4;35;1mRecipe Load (0.4ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:00:22) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mRecipe Load (0.3ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 54ms (View: 48, DB: 0) | 200 OK [http://localhost/recipes/3]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:00:24) [GET]
+  [4;35;1mRecipe Load (0.3ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:00:25) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:00:49) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:01:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mRecipe Load (0.2ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/recipes/1]
+
+
+Processing RecipesController#edit (for 127.0.0.1 at 2011-12-15 16:01:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/edit
+Rendered recipes/_form (4.1ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/recipes/1/edit]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:01:28) [GET]
+  [4;36;1mRecipe Load (0.4ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:01:30) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mRecipe Load (0.1ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes/3]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:01:32) [GET]
+  [4;36;1mRecipe Load (0.3ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:02:11) [GET]
+
+ActionController::RoutingError (edit_recipe_url failed to generate from {:controller=>"recipes", :action=>"edit"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id, "edit"] - are they all satisfied?):
+  (eval):17:in `edit_recipe_path'
+  app/controllers/recipes_controller.rb:22:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:02:56) [GET]
+
+ActionController::RoutingError (edit_recipe_url failed to generate from {:controller=>"recipes", :action=>"edit"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id, "edit"] - are they all satisfied?):
+  (eval):17:in `edit_recipe_path'
+  app/controllers/recipes_controller.rb:22:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:02:58) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/recipes/3]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:03:13) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mRecipe Load (0.2ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/recipes/3]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:05:43) [GET]
+  [4;35;1mRecipe Load (0.4ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:05:44) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (95.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:06:09) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (56.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:06:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mRecipe Load (0.1ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes/1]
+
+
+Processing RecipesController#edit (for 127.0.0.1 at 2011-12-15 16:06:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/edit
+Rendered recipes/_form (5.6ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/recipes/1/edit]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:06:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mRecipe Load (0.1ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes/1]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:06:30) [GET]
+  [4;35;1mRecipe Load (0.5ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 55ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:06:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mRecipe Load (0.1ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes/3]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:06:32) [GET]
+  [4;35;1mRecipe Load (0.5ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:06:33) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mRecipe Load (0.1ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/recipes/2]
+
+
+Processing RecipesController#edit (for 127.0.0.1 at 2011-12-15 16:06:34) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mRecipe Load (0.1ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering recipes/edit
+Rendered recipes/_form (4.3ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/recipes/2/edit]
+
+
+Processing RecipesController#update (for 127.0.0.1 at 2011-12-15 16:06:38) [PUT]
+  Parameters: {"commit"=>"Save", "authenticity_token"=>"O7wb03H+SJ0W92zMbTeJQeLCFFNSr32bFoAFW+UtGJw=", "id"=>"2", "recipe"=>{"title"=>"Full English", "method"=>"Eat Even More"}}
+  [4;36;1mRecipe Load (0.2ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+  [4;35;1mRecipe Update (0.1ms)[0m   [0mUPDATE "recipes" SET "updated_at" = '2011-12-15 16:06:38', "method" = 'Eat Even More' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/recipes/2
+Completed in 62ms (DB: 0) | 302 Found [http://localhost/recipes/2]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:06:38) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mRecipe Load (0.2ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/recipes/2]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:06:40) [GET]
+  [4;35;1mRecipe Load (0.4ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:06:43) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (105.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:07:33) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (55.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:08:24) [GET]
+  [4;36;1mRecipe Load (0.3ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 57ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:08:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/recipes/1]
+
+
+Processing RecipesController#edit (for 127.0.0.1 at 2011-12-15 16:08:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mRecipe Load (0.2ms)[0m   [0;1mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/edit
+Rendered recipes/_form (6.1ms)
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/recipes/1/edit]
+
+
+Processing RecipesController#update (for 127.0.0.1 at 2011-12-15 16:08:31) [PUT]
+  Parameters: {"commit"=>"Save", "authenticity_token"=>"O7wb03H+SJ0W92zMbTeJQeLCFFNSr32bFoAFW+UtGJw=", "id"=>"1", "recipe"=>{"title"=>"Bacon Butty", "method"=>"Eat Lots More And More..."}}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+  [4;36;1mRecipe Update (0.2ms)[0m   [0;1mUPDATE "recipes" SET "updated_at" = '2011-12-15 16:08:31', "method" = 'Eat Lots More And More...' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/recipes/1
+Completed in 84ms (DB: 0) | 302 Found [http://localhost/recipes/1]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:08:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/recipes/1]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:08:33) [GET]
+  [4;36;1mRecipe Load (0.5ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:08:34) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (74.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:09:52) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (54.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:10:15) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (106.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:10:16) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (54.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:10:29) [GET]
+  [4;36;1mRecipe Load (0.6ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 19ms (View: 15, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:10:31) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (58.6ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:10:53) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (55.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:11:48) [GET]
+  [4;36;1mRecipe Load (0.6ms)[0m   [0;1mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 19ms (View: 15, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-12-15 16:11:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mRecipe Load (0.2ms)[0m   [0mSELECT * FROM "recipes" WHERE ("recipes"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/recipes/1]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:11:58) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+
+ActionView::TemplateError (recipe_url failed to generate from {:controller=>"recipes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["recipes", :id] - are they all satisfied?) on line #11 of app/views/recipes/_form.html.erb:
+8: <%= f.text_area :method %>
+9: </p>
+10: <p>
+11: <%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
+12: </p>
+13: <% end %>
+
+    (eval):17:in `recipe_path'
+    app/views/recipes/_form.html.erb:11
+    app/views/recipes/_form.html.erb:1
+    app/views/recipes/new.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (104.1ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-12-15 16:12:47) [GET]
+Rendering template within layouts/application
+Rendering recipes/new
+Rendered recipes/_form (7.1ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2011-12-15 16:12:56) [POST]
+  Parameters: {"commit"=>"Save", "authenticity_token"=>"O7wb03H+SJ0W92zMbTeJQeLCFFNSr32bFoAFW+UtGJw=", "recipe"=>{"title"=>"new recipe", "method"=>"a new one"}}
+  [4;36;1mRecipe Create (0.5ms)[0m   [0;1mINSERT INTO "recipes" ("created_at", "title", "method", "updated_at") VALUES('2011-12-15 16:12:56', 'new recipe', 'a new one', '2011-12-15 16:12:56')[0m
+Redirected to http://localhost:3000/
+Completed in 92ms (DB: 1) | 302 Found [http://localhost/recipes]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-12-15 16:12:56) [GET]
+  [4;35;1mRecipe Load (0.3ms)[0m   [0mSELECT * FROM "recipes" [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]

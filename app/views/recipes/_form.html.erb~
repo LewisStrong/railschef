@@ -8,6 +8,6 @@
 <%= f.text_area :method %>
 </p>
 <p>
-<%= f.submit "Save" %> | <%= link_to "Cancel", @recipe %>
+<%= f.submit "Save" %> | <%= link_to "Cancel", recipe_path %>
 </p>
 <% end %>
